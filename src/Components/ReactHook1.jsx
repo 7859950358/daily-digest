@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 function ReactHook1() {
     const [count, setCount] = useState(0);
-    
+
     // Similar to componentDidMount and componentDidUpdate:
     useEffect(() => {
         // Update the document title using the browser API
